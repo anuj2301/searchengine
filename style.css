@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    background-size: cover; /* Ensure background image covers the entire page */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#search-input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: 2px solid #1e90ff; /* Dodger blue border */
+    border-radius: 5px;
+}
+
+#search-button, #clear-history-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ffd700; /* Gold background */
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+#search-button:hover, #clear-history-button:hover {
+    background-color: #ffcc00; /* Darker gold on hover */
+}
+
+.history-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#search-history {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#search-history li {
+    padding: 5px 0;
+    border-bottom: 1px solid #1e90ff; /* Dodger blue border */
+}
+
+.background-customizer {
+    text-align: center;
+    margin-top: 20px;
+}
